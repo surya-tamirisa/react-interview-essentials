@@ -1,0 +1,12 @@
+.task-details-container{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    .checkbox-class{
+        display:flex;
+        flex-direction: col;
+    }
+}
+.completed{
+    color: gray;
+}

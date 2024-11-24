@@ -1,0 +1,13 @@
+.posts-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+}
+.post-card-container{
+    width: 60vh;
+    border: 1px solid black;
+}
+    

@@ -6,31 +6,31 @@ const taskDatafromBE= [
         id: 1,
         status: 0,
         priority: 0,
-        content: 'Take Milo out for vet'
+        content: 'Take your dog out for vet'
     },
     {
         id: 2,
         status: 1,
         priority: 0,
-        content: 'Take Milo out for vet'
+        content: 'Take your dog out for vet'
     },
     {
         id: 3,
         status: 0,
         priority: 1,
-        content: 'Take Milo out for vet'
+        content: 'Take your dog out for vet'
     },
     {
         id: 4,
         status: 0,
         priority: 2,
-        content: 'Take Milo out for vet'
+        content: 'Take your dog out for vet'
     },
     {
         id: 5,
         status: 0,
         priority: 3,
-        content: 'Take Milo out for vet'
+        content: 'Take your dog out for vet'
     }
 ];
 
@@ -75,9 +75,9 @@ const EMTwo = () => {
             setFilteredData(tasksList)
         else {
             let arr = tasksList.filter((task) => {
-                console.log(task, 'milo2');
+                console.log(task, 'your dog2');
                 return task.priority === priorityFilter});
-            console.log(arr, 'milo1');
+            console.log(arr, 'your dog1');
             setFilteredData(arr);
         }
 

@@ -26,6 +26,9 @@ import EM13 from "./Components/ExerciseModules/EM13";
 import CounterComponentWrapper from './Components/ReduxCreateSlice/CounterComponentWrapper';
 import EM14 from "./Components/ExerciseModules/EM14";
 import EM15 from "./Components/ExerciseModules/EM15";
+import EM16 from "./Components/ExerciseModules/EM16";
+import EM17 from "./Components/ExerciseModules/EM17";
+import EM18 from "./Components/ExerciseModules/EM18";
 
 // Centralized component mapping
 const COMPONENTS = {
@@ -55,7 +58,10 @@ const COMPONENTS = {
     EM12,
     EM13,
     EM14,
-    EM15
+    EM15,
+    EM16,
+    EM17,
+    EM18
   },
   "Other Modules": {
     CounterComponentWrapper

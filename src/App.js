@@ -78,6 +78,8 @@ const COMPONENTS = {
   },
 };
 
+//test
+
 const App = () => {
   const [category, setCategory] = useState(""); // Selected category
   const [module, setModule] = useState(""); // Selected module

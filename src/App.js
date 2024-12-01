@@ -32,6 +32,8 @@ import EM18 from "./Components/ExerciseModules/EM18";
 import EM19 from "./Components/ExerciseModules/EM19";
 import EM20 from "./Components/ExerciseModules/EM20";
 import EM21 from "./Components/ExerciseModules/EM21";
+import EM22 from "./Components/ExerciseModules/EM22";
+import EM23 from "./Components/ExerciseModules/EM23";
 
 // Centralized component mapping
 const COMPONENTS = {
@@ -67,7 +69,9 @@ const COMPONENTS = {
     EM18,
     EM19,
     EM20,
-    EM21
+    EM21,
+    EM22,
+    EM23
   },
   "Other Modules": {
     CounterComponentWrapper

@@ -1,6 +1,21 @@
-# Getting Started with Create React App
+# React Interview Preparation Modules
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository is a collection of React Exercise Modules designed to help you prepare for frontend interviews. It includes practical, real-world problems and learning modules that cover essential React concepts and features. Each module is crafted to improve understanding, problem-solving, and implementation skills in React.
+
+##Features:
+
+###Exercise Modules:
+
+Real-world scenarios like task management, shopping carts, stock watchlists, and more.
+Focus on key React patterns such as state management, reducers, props drilling, and context.
+Emphasis on dynamic UI updates, data filtering, and API simulation.
+
+###Learning Modules:
+
+Console-based exercises to deepen understanding of React's rendering flow.
+Scenarios with useEffect, state updates, and dependency handling to understand the sequence of React lifecycle events.
+Exercises to predict and debug console logs for better mastery of React behavior.
+Whether you're preparing for interviews or honing your React skills, this repository provides a hands-on approach to mastering React concepts that are frequently asked in frontend interviews. Perfect for developers of all levels aiming to solidify their knowledge and build confidence for technical discussions.
 
 ## Available Scripts
 

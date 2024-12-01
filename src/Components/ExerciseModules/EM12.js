@@ -1,3 +1,22 @@
+/*
+Question: Create a React application to manage and toggle between light and dark themes.
+
+Requirements:
+1. The application should:
+   - Allow the user to toggle between "light" and "dark" themes using a checkbox.
+   - Display the current theme in each component.
+
+2. Components:
+   - A parent component that shows the current theme and provides the toggle functionality.
+   - A grandchild component that also shows the current theme and allows toggling it.
+
+3. Theme management:
+   - Ensure that theme changes are reflected consistently across all components.
+   - Maintain and share the theme state between components.
+
+4. Provide user-friendly labels indicating the current theme and toggle action.
+*/
+
 import { createContext, useContext, useState } from "react";
 
 const ThemeContext = createContext();

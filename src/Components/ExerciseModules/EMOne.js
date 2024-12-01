@@ -1,3 +1,32 @@
+/*
+Question: Create a React application to manage and display notifications.
+
+Requirements:
+1. The application should:
+   - Display a list of notifications with details such as content, timestamp, and status (read or unread).
+   - Allow users to mark notifications as "read."
+
+2. Functionality:
+   - Include a button to toggle between showing all notifications and only unread notifications.
+   - Dynamically update the list of notifications based on the selected filter.
+
+3. Notification details:
+   - Each notification should include:
+     - An ID.
+     - Content text.
+     - A timestamp.
+     - A status (0 for unread, 1 for read).
+
+4. Display:
+   - Show a "Mark as Read" button for unread notifications.
+   - Update the notification's status when marked as read and reflect the change in the filtered list.
+
+5. Dynamic updates:
+   - Ensure that changes in the notification status are immediately reflected in the UI.
+   - Provide a clear and intuitive interface for toggling between filters and interacting with notifications.
+*/
+
+
 import React, { useEffect, useState } from "react";
 
 const notificationsFromBE = [

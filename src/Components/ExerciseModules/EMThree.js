@@ -1,4 +1,25 @@
-// { id, title, description } POST
+/*
+Question: Create a React application to display a paginated list of posts.
+
+Requirements:
+1. The application should:
+   - Display a list of posts with each post containing an ID, title, and description.
+   - Paginate the posts with user-configurable chunk sizes.
+
+2. Pagination functionality:
+   - Allow users to choose the number of posts displayed per page (e.g., 5 or 10).
+   - Provide "Previous" and "Next" buttons to navigate between pages.
+   - Disable navigation buttons appropriately when the user is on the first or last page.
+
+3. Data handling:
+   - Use a fixed set of dummy posts with unique IDs, titles, and descriptions.
+   - Dynamically calculate and display the posts for the current page based on the selected chunk size and page number.
+
+4. Display:
+   - Ensure a clear and organized layout for the posts and pagination controls.
+   - Provide a responsive and user-friendly interface for navigation.
+*/
+
 import React, { useState, useMemo } from 'react';
 import '../../styles/ExerciseModules/EMThree.css';
 

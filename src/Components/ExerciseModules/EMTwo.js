@@ -1,3 +1,31 @@
+/*
+Question: Create a React application to manage and display a task list with priority-based filtering.
+
+Requirements:
+1. The application should:
+   - Display a list of tasks with details such as ID, priority, content, and completion status.
+   - Allow users to mark tasks as "completed."
+
+2. Task details:
+   - Each task should include:
+     - An ID.
+     - A priority level (e.g., High, Medium, Low).
+     - A content description.
+     - A status (0 for incomplete, 1 for completed).
+
+3. Functionality:
+   - Include a dropdown filter to display tasks based on their priority or show all tasks.
+   - Update the list of tasks dynamically based on the selected filter.
+
+4. Interaction:
+   - Provide a checkbox to mark incomplete tasks as "completed."
+   - Automatically move tasks to the "completed" status when the checkbox is checked.
+
+5. Display:
+   - Visually differentiate completed tasks from incomplete tasks.
+   - Ensure the interface is user-friendly and reflects updates dynamically.
+*/
+
 import React, { useMemo, useState, useEffect } from 'react';
 import '../../styles/ExerciseModules/EMTwo.css';
 

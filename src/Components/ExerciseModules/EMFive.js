@@ -1,3 +1,26 @@
+/*
+Question: Create a React application to manage a shopping cart.
+
+Requirements:
+1. The application should:
+   - Display a list of items in the cart with their name, price, and quantity.
+   - Allow users to select or deselect items in the cart.
+   - Enable users to update the quantity of each item.
+
+2. Cart functionality:
+   - Dynamically calculate the total cost of selected items.
+   - Update the total when the quantity or selection of items changes.
+
+3. Interaction:
+   - Provide a checkbox for selecting or deselecting items.
+   - Include buttons to increase or decrease the quantity of each item.
+   - Allow users to manually edit the quantity in an input field.
+
+4. Display:
+   - Show the updated total cost in a separate section.
+   - Ensure the layout is user-friendly and clearly displays the cart items and their details.
+*/
+
 import React, { useState, useEffect } from 'react';
 
 

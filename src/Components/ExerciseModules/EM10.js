@@ -1,3 +1,27 @@
+/*
+Question: Create a React application to manage a task list.
+
+Requirements:
+1. The application should allow users to:
+   - Add new tasks with a unique ID, name, and description.
+   - Mark tasks as completed or uncompleted using a checkbox.
+   - Delete tasks from the list.
+
+2. Task details:
+   - Each task should have the following properties:
+     - ID: A unique identifier for the task.
+     - Name: A string representing the task's title.
+     - Description: A string representing the task's description.
+     - isCompleted: A boolean indicating the completion status.
+
+3. Functionality:
+   - The list should dynamically update when tasks are added, marked as completed, or deleted.
+   - Disable the "Add Task" button when either the name or description fields are empty.
+
+4. Display:
+   - Show all tasks in a list with their details, along with checkboxes and a delete button for each task.
+*/
+
 
 /***
  * {

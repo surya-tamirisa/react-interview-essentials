@@ -1,3 +1,19 @@
+/*
+Question: Create a React application to manage a counter.
+
+Requirements:
+1. The application should:
+   - Display the current value of the counter.
+   - Provide buttons to increment, decrement, and reset the counter.
+
+2. Counter functionality:
+   - Increment the counter by 1 when the "Increment Counter" button is clicked.
+   - Decrement the counter by 1 when the "Decrement Counter" button is clicked.
+   - Reset the counter to 0 when the "Reset Counter" button is clicked.
+
+3. Ensure the UI dynamically updates to reflect the current counter value after any operation.
+*/
+
 import { useReducer } from "react"
 
 

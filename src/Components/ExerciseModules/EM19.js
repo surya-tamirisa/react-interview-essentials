@@ -1,3 +1,24 @@
+/*
+Question: Create a React game where users select numbers under a time constraint.
+
+Requirements:
+1. The game should:
+   - Start with a timer that counts down from a specified duration (e.g., 10 seconds).
+   - Allow users to select numbers from a grid of numbers (1-9).
+   - Track the selected numbers.
+
+2. The game ends when:
+   - The timer reaches 0.
+   - Display a message indicating whether the user won or lost:
+     - "You Won!!! Congrats" if all numbers are selected before the timer ends.
+     - "Sorry, you Lost. Better luck next time!" otherwise.
+
+3. Provide visual feedback:
+   - Numbers already selected should have a different background color.
+
+4. Use context to share the selected numbers between the main game component and the grid of numbers.
+*/
+
 import { createContext, useContext, useEffect, useRef, useState } from "react";
 
 const GamePanel = () => {

@@ -1,3 +1,19 @@
+/*
+Question: Create a React component to manage a simple shopping cart system.
+
+Requirements:
+1. The component should display:
+   - A list of products with their details (ID, name, and price).
+   - A cart that shows the products added by the user.
+
+2. Provide functionality to:
+   - Add products to the cart from the product list.
+   - Disable the "Add to Cart" button for products already added to the cart.
+   - Toggle the visibility of the cart with an "Open Cart" and "Close Cart" button.
+
+3. Ensure the cart displays all the products added, along with their details.
+*/
+
 import { createContext, useContext, useState } from "react";
 
 

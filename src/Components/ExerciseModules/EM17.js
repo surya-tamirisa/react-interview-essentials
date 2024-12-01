@@ -1,3 +1,23 @@
+/*
+Question: Create a React component that retrieves and displays user details based on a selection.
+
+Requirements:
+1. The component should:
+   - Display a dropdown menu with a list of user IDs to select from.
+   - Allow the user to select a user ID and retrieve the corresponding user details.
+
+2. User details should:
+   - Be retrieved from a remote API if the user is not already in the local data store.
+   - Be displayed dynamically once retrieved.
+
+3. Provide functionality to:
+   - Check if the selected user already exists in the local data store.
+   - Fetch user details from an API if the user is not found locally.
+   - Update the local data store with newly fetched user details.
+
+4. Show a loading indicator while fetching data from the API.
+*/
+
 import { useReducer, useState } from "react";
 
 const users = ['Select User',1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];

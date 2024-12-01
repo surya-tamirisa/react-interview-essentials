@@ -1,3 +1,24 @@
+/*
+Question: Create a React component to simulate a voting system.
+
+Requirements:
+1. The component should:
+   - Display a list of contestants with their details (name, age, ID, current vote count).
+   - Provide controls for upvoting and downvoting each contestant.
+
+2. Voting functionalities:
+   - Increment or decrement the vote count for each contestant.
+   - Prevent vote counts from going below zero.
+
+3. Election controls:
+   - A "Reset Election" button to reset all vote counts to zero.
+   - A "Finalize Election" button to determine and display the contestant with the highest votes.
+
+4. Display the winner:
+   - Show the winner's name when the election is finalized.
+   - Update dynamically if votes change before finalization.
+*/
+
 import React, { createContext, useContext, useEffect, useReducer } from "react";
 
 const initialState = {

@@ -1,3 +1,20 @@
+/*
+Question: Create a React component to manage multiple timer modules dynamically.
+
+Requirements:
+1. Each timer module should:
+   - Display the remaining time in seconds.
+   - Include a progress bar showing the remaining time as a percentage of the total duration.
+   - Have controls for Start, Pause, and Reset functionality.
+   - Stop automatically when the timer reaches 0.
+
+2. Users should be able to:
+   - Dynamically add new timers by entering a name and duration through input fields.
+   - View all added timers in a list, each operating independently.
+
+3. Each timer should work independently, allowing for multiple timers to be active simultaneously.
+*/
+
 import { useEffect, useRef, useState } from "react";
 
 

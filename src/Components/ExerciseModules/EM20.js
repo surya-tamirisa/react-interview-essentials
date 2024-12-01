@@ -1,3 +1,20 @@
+/*
+Question: Create a React component that tracks and displays timer activities.
+
+Requirements:
+1. The component should:
+   - Display a timer that increments in seconds.
+   - Allow the user to Start, Pause, and Reset the timer.
+   - Keep track of the timer's state: stopped, running, or paused.
+
+2. Maintain a log of user actions with messages for each activity:
+   - Example: "Timer started running at X seconds."
+
+3. Display the log entries dynamically, with each entry rendered in a separate child component.
+
+4. Provide buttons to control the timer, with appropriate states for enabling and disabling.
+*/
+
 import { useState, useRef, createContext, useContext } from "react";
 
 const EM20 = () => {

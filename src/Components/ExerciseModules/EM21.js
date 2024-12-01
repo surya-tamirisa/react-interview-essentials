@@ -1,3 +1,24 @@
+/*
+Question: Create a React component that implements a countdown timer with a visual progress bar.
+
+Requirements:
+1. The component should:
+   - Allow users to input a duration in seconds.
+   - Start the countdown timer when the user clicks the "Start Timer" button.
+   - Display the remaining time during the countdown.
+
+2. The progress bar should:
+   - Visually represent the percentage of time elapsed.
+   - Update dynamically as the timer counts down.
+   - Change the color of each segment based on the elapsed time.
+
+3. Provide controls to:
+   - Reset the timer and progress bar to their initial state.
+   - Automatically stop the countdown and reset when it reaches 0.
+
+4. Display a message ("Countdown Done!!!!!") when the countdown completes.
+*/
+
 import { useEffect, useRef, useState } from "react";
 
 const ProgressBar = ({time, initVal}) => {

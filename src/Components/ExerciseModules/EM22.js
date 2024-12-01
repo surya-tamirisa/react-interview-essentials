@@ -1,3 +1,20 @@
+/*
+Question: Create a React component to manage a Todo list.
+
+Requirements:
+1. The Todo list should:
+   - Allow users to add new Todos with unique IDs and text.
+   - Display a list of Todos with each Todo having the following actions:
+     a. Mark as Complete/Incomplete toggle.
+     b. Edit the Todo text.
+
+2. Each Todo action should:
+   - Toggle between complete and incomplete states.
+   - Allow inline editing of the text with a Done button to save changes.
+
+3. The component should dynamically update the displayed list based on user interactions.
+*/
+
 import { useReducer, useState } from "react";
 
 const TODOComp = ({todo, dispatch}) => {

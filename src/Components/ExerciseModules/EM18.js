@@ -1,3 +1,22 @@
+/*
+Question: Create a React component to manage a movie watchlist.
+
+Requirements:
+1. The component should allow users to:
+   - Add new movies to the watchlist by entering a title.
+   - Mark movies as "Watched" or "Unwatched."
+   - Delete all watched movies from the list.
+
+2. The watchlist should:
+   - Display each movie's title along with a button to toggle its watch status.
+   - Dynamically update based on user interactions.
+
+3. Provide functionality to:
+   - Add movies with unique identifiers.
+   - Toggle the status of individual movies between "Watched" and "Unwatched."
+   - Remove all movies marked as "Watched" in a single action.
+*/
+
 import { useReducer, useState } from "react";
 
 const initialState = {

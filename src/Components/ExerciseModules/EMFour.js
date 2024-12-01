@@ -1,3 +1,29 @@
+/*
+Question: Create a React application to fetch and display weather information for a given city.
+
+Requirements:
+1. The application should:
+   - Accept a city name as input from the user.
+   - Fetch weather data for the specified city from a simulated API.
+   - Display the weather details, including:
+     - City name.
+     - Temperature.
+     - Condition (e.g., Sunny, Cloudy, Rainy).
+     - Humidity percentage.
+     - Wind speed.
+
+2. Error handling:
+   - Show an appropriate error message if the city is not found in the mock API data.
+
+3. Loading state:
+   - Display a loading message while fetching weather information.
+   - Ensure the UI updates dynamically based on the loading, success, or error states.
+
+4. Display:
+   - Provide a clean and user-friendly layout for input, weather details, and error messages.
+   - Clear previous weather or error information when fetching new data.
+*/
+
 // Simulated API function
 import React, { useState } from 'react';
 

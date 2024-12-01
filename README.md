@@ -2,15 +2,15 @@
 
 This repository is a collection of React Exercise Modules designed to help you prepare for frontend interviews. It includes practical, real-world problems and learning modules that cover essential React concepts and features. Each module is crafted to improve understanding, problem-solving, and implementation skills in React.
 
-##Features:
+## Features:
 
-###Exercise Modules:
+### Exercise Modules:
 
 Real-world scenarios like task management, shopping carts, stock watchlists, and more.
 Focus on key React patterns such as state management, reducers, props drilling, and context.
 Emphasis on dynamic UI updates, data filtering, and API simulation.
 
-###Learning Modules:
+### Learning Modules:
 
 Console-based exercises to deepen understanding of React's rendering flow.
 Scenarios with useEffect, state updates, and dependency handling to understand the sequence of React lifecycle events.

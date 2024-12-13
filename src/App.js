@@ -37,6 +37,7 @@ import EM23 from "./Components/ExerciseModules/EM23";
 import EM24 from "./Components/ExerciseModules/EM24";
 import AM1 from "./Components/APIModules/AM1";
 import AM2 from "./Components/APIModules/AM2";
+import EM26 from "./Components/ExerciseModules/EM26";
 
 
 // Centralized component mapping
@@ -76,7 +77,8 @@ const COMPONENTS = {
     EM21,
     EM22,
     EM23,
-    EM24
+    EM24,
+    EM26
   },
   "API Call Modules": {
     AM1,

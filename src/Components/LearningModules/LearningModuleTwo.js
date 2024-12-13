@@ -46,3 +46,27 @@ const LearningModuleTwo = () => {
 };
 
 export default LearningModuleTwo;
+
+/**
+ * Solution:
+ * 
+ * Initial render:
+ * Render: CounterComponent function body
+ * Render: Inside return
+ * Effect: Count dependency - setting up
+ * Effect: showMessage dependency - setting up
+ * 
+ * On Increment button:
+ * Event: Increment button clicked
+ * Render: CounterComponent function body
+ * Render: Inside return
+ * Effect: Count dependency - cleanup
+ * Effect: Count dependency - setting up
+ * 
+ * On Toggle button:
+ * Event: Toggle message button clicked
+ * Render: CounterComponent function body
+ * Render: Inside return
+ * Effect: showMessage dependency - cleanup
+ * Effect: showMessage dependency - setting up
+ */

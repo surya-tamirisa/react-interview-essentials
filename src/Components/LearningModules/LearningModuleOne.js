@@ -46,3 +46,28 @@ const LearningModuleOne = () => {
 };
 
 export default LearningModuleOne;
+
+/**
+ * Solution:
+ * 
+ * Initial render:
+ * Render: Function body
+ * Render: Inside return
+ * Effect: Count dependency - setting up
+ * Effect: Text dependency - setting up
+ * 
+ * On Button Click:
+ * Event: Increment button clicked
+ * Render: Function body
+ * Render: Inside return
+ * Effect: Count dependency - cleanup
+ * Effect: Count dependency - setting up
+ * 
+ * On Input Chnage:
+ * Event: Text input changed
+ * Render: Function body
+ * Render: Inside return
+ * Effect: Text dependency - cleanup
+ * Effect: Text dependency - setting up
+ * 
+ */

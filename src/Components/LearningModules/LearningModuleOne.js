@@ -46,5 +46,3 @@ const LearningModuleOne = () => {
 };
 
 export default LearningModuleOne;
-
-

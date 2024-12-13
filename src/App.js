@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 // Import all modules
 import FillerComponent from "./Components/LearningModules/FillerComponent";
+import CounterComponentWrapper from './Components/ReduxCreateSlice/CounterComponentWrapper';
 import LearningModuleOne from "./Components/LearningModules/LearningModuleOne";
 import LearningModuleTwo from "./Components/LearningModules/LearningModuleTwo";
 import LearningModuleThree from "./Components/LearningModules/LearningModuleThree";
@@ -9,13 +10,13 @@ import LMFive from "./Components/LearningModules/LMFive";
 import LMFour from "./Components/LearningModules/LMFour";
 import LMSix from "./Components/LearningModules/LMSix";
 import LMSeven from "./Components/LearningModules/LMSeven";
+import LMEight from "./Components/LearningModules/LMEight";
 import EMOne from "./Components/ExerciseModules/EMOne";
 import EMTwo from "./Components/ExerciseModules/EMTwo";
 import EMThree from "./Components/ExerciseModules/EMThree";
 import EMFour from "./Components/ExerciseModules/EMFour";
 import EMFive from "./Components/ExerciseModules/EMFive";
 import EMSix from "./Components/ExerciseModules/EMSix";
-import LMEight from "./Components/LearningModules/LMEight";
 import EM7 from "./Components/ExerciseModules/EM7";
 import EM8 from "./Components/ExerciseModules/EM8";
 import EM9 from "./Components/ExerciseModules/EM9";
@@ -23,7 +24,6 @@ import EM10 from "./Components/ExerciseModules/EM10";
 import EM11 from "./Components/ExerciseModules/EM11";
 import EM12 from "./Components/ExerciseModules/EM12";
 import EM13 from "./Components/ExerciseModules/EM13";
-import CounterComponentWrapper from './Components/ReduxCreateSlice/CounterComponentWrapper';
 import EM14 from "./Components/ExerciseModules/EM14";
 import EM15 from "./Components/ExerciseModules/EM15";
 import EM16 from "./Components/ExerciseModules/EM16";
@@ -36,6 +36,8 @@ import EM22 from "./Components/ExerciseModules/EM22";
 import EM23 from "./Components/ExerciseModules/EM23";
 import EM24 from "./Components/ExerciseModules/EM24";
 import AM1 from "./Components/APIModules/AM1";
+import AM2 from "./Components/APIModules/AM2";
+
 
 // Centralized component mapping
 const COMPONENTS = {
@@ -77,7 +79,8 @@ const COMPONENTS = {
     EM24
   },
   "API Call Modules": {
-    AM1
+    AM1,
+    AM2
   },
   "Other Modules": {
     CounterComponentWrapper

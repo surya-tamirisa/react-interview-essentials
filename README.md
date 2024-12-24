@@ -17,6 +17,10 @@ Scenarios with useEffect, state updates, and dependency handling to understand t
 Exercises to predict and debug console logs for better mastery of React behavior.
 Whether you're preparing for interviews or honing your React skills, this repository provides a hands-on approach to mastering React concepts that are frequently asked in frontend interviews. Perfect for developers of all levels aiming to solidify their knowledge and build confidence for technical discussions.
 
+### API Modules:
+
+Hands-on exercises focusing on real-world API integration scenarios like search, pagination, and authentication. Practice managing state, handling asynchronous calls with React hooks, and optimizing UI updates for better user experience. Perfect for mastering API-driven workflows in React for interviews or projects.
+
 ## Available Scripts
 
 In the project directory, you can run:

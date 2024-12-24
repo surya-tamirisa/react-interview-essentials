@@ -39,8 +39,6 @@ import AM1 from "./Components/APIModules/AM1";
 import AM2 from "./Components/APIModules/AM2";
 import EM26 from "./Components/ExerciseModules/EM26";
 
-
-// Centralized component mapping
 const COMPONENTS = {
   "Learning Modules": {
     FillerComponent,
@@ -90,10 +88,9 @@ const COMPONENTS = {
 };
 
 const App = () => {
-  const [category, setCategory] = useState(""); // Selected category
-  const [module, setModule] = useState(""); // Selected module
+  const [category, setCategory] = useState("");
+  const [module, setModule] = useState("");
 
-  // Dynamically load the selected component
   const SelectedComponent = category && module ? COMPONENTS[category][module] : null;
 
   const selectionContainerStyle = {
@@ -108,9 +105,7 @@ const App = () => {
     <div className="App">
       <h1>React Practice Hub</h1>
 
-      {/* Selection Container */}
       <div style={selectionContainerStyle}>
-        {/* Category Selection */}
         <div>
           <label htmlFor="category">Select Category:</label>
           <select
@@ -131,7 +126,6 @@ const App = () => {
           </select>
         </div>
 
-        {/* Module Selection */}
         {category && (
           <div style={{ marginTop: "15px" }}>
             <label htmlFor="module">Select Module:</label>
@@ -152,7 +146,6 @@ const App = () => {
         )}
       </div>
 
-      {/* Render Selected Component */}
       <div className="module-container">
         {SelectedComponent ? <SelectedComponent /> : <p>Please select a module to load.</p>}
       </div>

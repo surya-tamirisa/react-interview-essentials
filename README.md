@@ -2,6 +2,10 @@
 
 This repository is a collection of React Exercise Modules designed to help you prepare for frontend interviews. It includes practical, real-world problems and learning modules that cover essential React concepts and features. Each module is crafted to improve understanding, problem-solving, and implementation skills in React.
 
+1. Clone the repo
+2. Run 'npm install'
+3. Run 'npm start'
+
 ## Features:
 
 ### Exercise Modules:
